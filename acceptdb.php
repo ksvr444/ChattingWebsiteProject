@@ -1,3 +1,4 @@
+//hai this is
 <?php
 $nickname=$_REQUEST['nickname'];
 $randnum=$_REQUEST['randstr'];
