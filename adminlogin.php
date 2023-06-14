@@ -1,3 +1,4 @@
+//ok thats fine
 <?php
 session_start();
  ?>

@@ -1,4 +1,6 @@
 //hai this is
+//we gonna rock
+//ok fine cool
 <?php
 $nickname=$_REQUEST['nickname'];
 $randnum=$_REQUEST['randstr'];
