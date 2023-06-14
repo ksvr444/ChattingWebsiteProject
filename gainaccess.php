@@ -9,7 +9,7 @@
 
 	<body>
 			<?php include("menu.html"); ?>
-		<div class="w3-container w3-display-middle" style="width:40%">
+		<div class="w3-container w3-display-middle" style="width:30%">
 
 			<div class="w3-card-2">
 
