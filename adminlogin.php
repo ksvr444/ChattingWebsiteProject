@@ -67,7 +67,7 @@ if($adminid=="admin")
 	if($pwd=="admin")
 	{
 		$_SESSION['adid']="admin";
-		header("Location:http://localhost/project/adminpage1.php");
+		header("Location:http://localhost/chattingwebsiteproject/adminpage1.php");
 	}
 	else
 	{

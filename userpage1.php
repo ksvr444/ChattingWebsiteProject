@@ -187,7 +187,7 @@ else {
         $textpost=htmlentities($_POST['textpost']);
         $uploadfile_data=addslashes(file_get_contents($_FILES['upfile']['tmp_name']));
         $uploadfile_name=$_FILES['upfile']['name'];
-        $sql="INSERT into uploads(nickname,txtpost,name,data) values('$nickname','$textpost','$uploadfile_name','$uploadfile_data')";
+        $sql="INSERT into adminuploads(nickname,txtpost,name,data) values('$nickname','$textpost','$uploadfile_name','$uploadfile_data')";
         $con->query($sql);
       }
 

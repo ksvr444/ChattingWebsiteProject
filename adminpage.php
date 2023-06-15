@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['adid']))
 {
-  header("Location:http://localhost/project/logoutadmin.php");
+  header("Location:http://localhost/chattingwebsiteproject/logoutadmin.php");
 }
  ?>
 <html>
